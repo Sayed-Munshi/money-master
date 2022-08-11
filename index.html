@@ -38,12 +38,12 @@
 
                 <div class=" col-sm-12 col-md-12 col-lg-6 half-width second-half  ">
 
-                    <p class="d-flex justify-content-center mt-2">Income</p>
+                    <p class="d-flex justify-content-center mt-3">Income</p>
 
                     <form action="" class="d-flex justify-content-center align-items-center">
                         <label for="">Income :</label>
 
-                        <input id="monthly-income" type="text">
+                        <input id="monthly-income" type="number">
                     </form>
 
 
@@ -53,17 +53,17 @@
                     <form action="">
                         <div class="d-flex justify-content-center align-items-center">
                             <label for="">Food :</label>
-                            <input id="expenses-food" type="text">
+                            <input id="expenses-food" type="number">
                         </div> <br>
 
                         <div class="d-flex justify-content-center align-items-center">
                             <label for="">Rent :</label>
-                            <input id="expenses-rent" type="text">
+                            <input id="expenses-rent" type="number">
                         </div><br>
 
                         <div class="d-flex justify-content-center align-items-center">
                             <label for="">Clothes :</label>
-                            <input id="expenses-clothes" type="text">
+                            <input id="expenses-clothes" type="number">
                         </div><br>
                     </form>
 
@@ -71,13 +71,18 @@
                         <button id="calculation-mont-income" class="btn btn-primary">Calculate</button>
                     </div>
 
-                    <h2 class="d-flex justify-content-center mt-2"> Total Expenses : <span id="total-Expence-value">
+                    <h2 class="d-flex justify-content-center mt-5"> Total Expenses : <span id="total-Expence-value">
                             0</span></h2>
-                    <h2 class="d-flex justify-content-center ">Balance : <span id="total-subtotal-balance"> 0</span>
+                    <h2 class="d-flex justify-content-center mt-2">Balance : <span id="total-subtotal-balance"> 0</span>
                     </h2>
                 </div>
             </div>
         </div>
+
+        <!-- <div class="notify-section">
+            <p id="notify-file" class="notify">❌ Pin Didn't Match, Please try again</p>
+            <p id="notify-success" class="notify">✅ Pin Matched... Secret door is opening for you</p>
+        </div> -->
     </main>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
