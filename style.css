@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-header {
+    margin-top: 100px;
+    color: #31A5AC;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 418px;
+}
+
+.half-width img {
+    width: 100%;
+    /* padding: 10px; */
+
+}
+
+.half-width {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.second-half {
+    background-color: #F8F8F8;
+}
+
+/* .expenses p {
+    text-align: right;
+    margin-right: 10px;
+} */
+/* input{
+    mar
+} */
+.expenses {
+    width: 140px;
+    display: inline-block;
+    align-items: center;
+}
+
+label {
+    width: 140px;
+    display: inline-block;
+    margin: 0.1cm;
+    font-size: 16px;
+}
+
+input {
+    background-color: #DCDCDC;
+    border: 3px solid #DCDCDC;
+    border-radius: 3px;
+}
